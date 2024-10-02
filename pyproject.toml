@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jupyter-workspace"
+version = "0.1.0"
+description = "Playground for basic Jupyter Notebook usage"
+authors = ["Chino Franco <chino.franco@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.2.5"
+notebook = "^7.2.2"
+poetry = "^1.8.3"
+pytest = "^8.3.3"
+fastapi = "^0.115.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
